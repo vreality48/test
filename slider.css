@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: rgba(253,237,237,1.00);
+}
+
+h1{
+	font-size: 2.1rem;
+	line-height: 1.4;
+	letter-spacing: 0.5rem;
+	text-align: center;
+	color: #000000;
+	margin-top: 50px;
+}
+
+.maindiv{
+	width: 70%;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url("images/1.JPG");
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 5px gray;
+	animation: shaikat_imageslider 15s infinite linear;
+}
+
+@keyframes shaikat_imageslider{
+	0%{
+		background-image: url("images/1.JPG"); background-size: 100% 100% ;
+	}
+	
+	20%{
+		background-image: url("images/2.JPG"); background-size: 100% 100% ;
+	}
+	
+	40%{
+		background-image: url("images/3.JPG"); background-size: 100% 100% ;
+	}
+	
+	60%{
+		background-image: url("images/4.JPG"); background-size: 100% 100% ;
+	}
+	
+	80%{
+		background-image: url("images/5.JPG"); background-size: 100% 100% ;
+	}
+	
+} 
